@@ -12,4 +12,4 @@ Start with Nvidia's Installation guide located at https://github.com/NVIDIA/flow
 Place all the files under flownet2-pytorch-master to flownet2 folder. (Or you can simply rename root directory to flownet2)
 
 # Usage
-Please refer to how_to_use.ipynb for usage details
+Please refer to how_to_use.py for usage examples
