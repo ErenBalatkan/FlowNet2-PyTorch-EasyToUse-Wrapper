@@ -10,5 +10,8 @@ Place all the files under flownet2-pytorch-master to flownet2 folder. (Or you ca
 
 * Step 3 : 
 ```
-pip install opencv-python
+pip install -r requirements.txt
 ```
+
+# Usage
+Please refer to how_to_use.ipynb for usage details
