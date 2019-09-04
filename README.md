@@ -12,4 +12,11 @@ Start with Nvidia's Installation guide located at https://github.com/NVIDIA/flow
 Place all the files under flownet2-pytorch-master to flownet2 folder. (Or you can simply rename flownet2-pytorch-master directory to flownet2 and place it directly on root directory)
 
 # Usage
-Please refer to how_to_use.py for usage examples
+Please refer to how_to_use.py for code examples
+
+'''
+flow_controller.predict(im1, im2) # For predicting flow given 2 images
+
+flow_controller.convert_flow_to_image(flow) # For converting flow matrix(output of predict method) into image 
+
+flow_controller.convert_video_to_flow("cp77cinematic.mp4", "output", downsample_res=(320, 320)) # For converting videos located on disk to optical flow videos
