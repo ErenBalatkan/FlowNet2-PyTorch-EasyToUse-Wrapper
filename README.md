@@ -20,3 +20,4 @@ flow_controller.predict(im1, im2) # For predicting flow given 2 images
 flow_controller.convert_flow_to_image(flow) # For converting flow matrix(output of predict method) into image 
 
 flow_controller.convert_video_to_flow("cp77cinematic.mp4", "output", downsample_res=(320, 320)) # For converting videos located on disk to optical flow videos
+'''
