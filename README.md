@@ -1,5 +1,5 @@
-# Flownet2-Pytorch-EasyToUse-Wrapper
-This repository provides a wrapper with very easy usage for Nvidia's Flownet2 Implementation
+# FlowNet2-Pytorch-EasyToUse-Wrapper
+This repository provides a wrapper with very easy usage for Nvidia's FlowNet2 Implementation
 
 # Test on Cyberpunk 2077 Cinematic
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/6GXBBtCxihM/0.jpg)](https://www.youtube.com/watch?v=6GXBBtCxihM "Video Title")
