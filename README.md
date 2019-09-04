@@ -14,10 +14,14 @@ Place all the files under flownet2-pytorch-master to flownet2 folder. (Or you ca
 # Usage
 Please refer to how_to_use.py for code examples
 
-'''
-flow_controller.predict(im1, im2) # For predicting flow given 2 images
+```python
 
-flow_controller.convert_flow_to_image(flow) # For converting flow matrix(output of predict method) into image 
+ # For predicting flow given 2 images
+flow_controller.predict(im1, im2)
 
-flow_controller.convert_video_to_flow("cp77cinematic.mp4", "output", downsample_res=(320, 320)) # For converting videos located on disk to optical flow videos
-'''
+# For converting flow matrix(output of predict method) into image 
+flow_controller.convert_flow_to_image(flow) 
+
+# For converting videos located on disk to optical flow videos
+flow_controller.convert_video_to_flow("cp77cinematic.mp4", "output", downsample_res=(320, 320)) 
+```
