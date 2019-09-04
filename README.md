@@ -2,7 +2,7 @@
 This repository provides a wrapper with very easy usage for Nvidia's Flownet2 Implementation
 
 # Test on Cyberpunk 2077 Cinematic
-
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/v=6GXBBtCxihM/0.jpg)](https://www.youtube.com/watch?v=6GXBBtCxihM "Video Title")
 
 # Installation
 * Step 1 :  
